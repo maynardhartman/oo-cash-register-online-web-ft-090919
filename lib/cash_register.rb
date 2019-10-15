@@ -6,6 +6,7 @@ class CashRegister
     @total = 0
     @discount = discount
     @items = []
+    @last_trans_amnt = 0
   end
 
 
