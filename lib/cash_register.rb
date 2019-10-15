@@ -30,7 +30,7 @@ class CashRegister
       @total = @total - (@total * (@discount))
       "After a discount of: #{@discount}, the total is $#{@total.to_i}."
     else
-      "No discount!"
+      "There is no discount to apply"
     end
   end
 
